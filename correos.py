@@ -5,8 +5,8 @@ import tkinter as tk
 from tkinter import messagebox
 
 def enviar_correo(asunto, mensaje, destinatario):
-    correo_origen = "franklinwbp@gmail.com"
-    contra_aplicacion = "bsnwnxxqhxpspunr"  # Usar la contraseña de aplicación generada
+    correo_origen = ""
+    contra_aplicacion = ""  # Usar la contraseña de aplicación generada
     servidor_smtp = "smtp.gmail.com"
     puerto_smtp = 587
 
